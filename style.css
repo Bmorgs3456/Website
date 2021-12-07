@@ -1,0 +1,112 @@
+.nav{
+  height: 50px;
+  background:blue;
+}
+.nav div{
+  display:inline-block;
+  position: absolute;
+  left: 0;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+}
+.nav ul{
+  position: absolute;
+  right: 15px;
+}
+.nav ul li{
+  display: inline-block;
+}
+.nav ul li a{
+  color: white;
+}
+footer p{
+  text-align: center;
+
+}
+.home{
+  background:url("images/background-orig.png");
+  background-size: cover;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.home .text-container{
+  text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.about{
+  background:url("images/background-orig.png");
+  background-size: cover;
+  height: 100vh;
+}
+.guides{
+  background:url("images/background-orig.png");
+  background-size: cover;
+  height: 100vh;
+}
+.contact{
+  background:url("images/background-orig.png");
+  background-size: cover;
+  height: 100vh;
+}
+.about .about-content {
+ margin: 150px auto 0 auto;
+ width: 500px;
+}
+.about .about-content h1{
+  text-align:center;
+  font-family: 'Roboto', sans-serif;
+  color:red;
+}
+.about .about-content p{
+  text-align:justify;
+  font-family: 'Lato', sans-serif;
+  color:green;
+}
+.guides .guides-content{
+  margin:80px auto 0 auto;
+  text-align:center;
+}
+.guides-content .guide-container ul{
+  padding: 0;
+}
+.guides-content .guides-container ul li{
+  display: block;
+  margin:20px;
+}
+.guides-content .guides-container ul li p{
+  text-align:justify;
+  font-family: "Lato", sans-serif;
+  color:green;
+}
+.guides .guides-content h1{
+  font-family: "Roboto", sans-serif;
+  color:red;
+}
+.guides-content .guides-container ul li a{
+  display: block;
+  color: red;
+}
+.contact .contact-content{
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+.contact .contact-content h1{
+  font-family: "Roboto", sans-serif;
+  color:red;
+}
+.contact .contact-content .address-holder{
+  font-family: "Lato", sans-serif;
+}
+html,body,footer {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+footer {
+  text-align: center;
+  line-height: 0px;
+}
