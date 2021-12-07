@@ -4,4 +4,4 @@ This is my first build of a website. It will NOT be going live, but is currently
 
 Provides an insight into my understanding of HTML, CSS and JS, as well as my ability to create a website.
 
-As I am writing this, the website has not been committed to git but will do so as soon as I can
+This has been committed to git and will have updated versions every so often.
