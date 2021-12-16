@@ -24,7 +24,7 @@ footer p{
   text-align: center;
 
 }
-.home{
+.home {
   background:url("images/background-orig.png");
   background-size: cover;
   height: 100vh;
@@ -41,6 +41,7 @@ footer p{
   background:url("images/background-orig.png");
   background-size: cover;
   height: 100vh;
+  overflow-y: hidden;
 }
 .guides{
   background:url("images/background-orig.png");
@@ -51,6 +52,7 @@ footer p{
   background:url("images/background-orig.png");
   background-size: cover;
   height: 100vh;
+  overflow-y: hidden;
 }
 .about .about-content {
  margin: 150px auto 0 auto;
@@ -101,12 +103,12 @@ footer p{
 .contact .contact-content .address-holder{
   font-family: "Lato", sans-serif;
 }
-html,body,footer {
+html,body {
     margin:0;
     padding:0;
     overflow-x:hidden;
+    background-blend-mode: overlay;
 }
-footer {
-  text-align: center;
-  line-height: 0px;
+footer, p {
+  margin: auto;
 }
