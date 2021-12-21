@@ -66,7 +66,7 @@ footer p{
 .about .about-content p{
   text-align:justify;
   font-family: 'Lato', sans-serif;
-  color:green;
+  color: black;
 }
 .guides .guides-content{
   margin:80px auto 0 auto;
@@ -111,4 +111,31 @@ html,body {
 }
 footer, p {
   margin: auto;
+  bottom: 0%;
+}
+h4 {
+  position: absolute;
+  text-align: center;
+  left: 25%;
+  font-family: "Lato", sans-serif;
+}
+#index {
+  position: absolute;
+  bottom: 0;
+  right: 30%;
+}
+#about {
+  position: absolute;
+  bottom: 0;
+  right: 30%;
+}
+#guides {
+  position: absolute;
+  bottom: 0;
+  right: 30%;
+}
+#contact {
+  position: absolute;
+  bottom: 0;
+  right: 30%;
 }
