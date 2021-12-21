@@ -1,15 +1,22 @@
-function startTime() {
-  const today = new Date();
-  let h = today.getHours();
-  let m = today.getMinutes();
-  let s = today.getSeconds();
-  m = checkTime(m);
-  s = checkTime(s);
-  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
-  setTimeout(startTime, 1000);
-}
+var today = new Date();
 
-function checkTime(i) {
-  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-  return i;
+var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+
+document.write(date);
+
+
+function(num1, num2) {
+	var x = num1;
+	var y = num2
+	var z = num1 + num2;
+	document.write(z);
+}
+document.write(3,5)
+
+function() {
+  var word = "scrabble";
+  word.length();
+  word.substr(5);
+  word.toUpperCase();
+  document.write(word);
 }
