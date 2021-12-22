@@ -93,7 +93,7 @@ footer p{
   color: red;
 }
 .contact .contact-content{
-  margin: 80px auto 0 auto;
+  margin: 10px auto 0 auto;
   text-align: center;
 }
 .contact .contact-content h1{
@@ -116,26 +116,65 @@ footer, p {
 h4 {
   position: absolute;
   text-align: center;
-  left: 25%;
+  right: 40%;
   font-family: "Lato", sans-serif;
 }
 #index {
   position: absolute;
   bottom: 0;
-  right: 30%;
+  right: 40%;
 }
 #about {
   position: absolute;
   bottom: 0;
-  right: 30%;
+  right: 40%;
 }
 #guides {
   position: absolute;
   bottom: 0;
-  right: 30%;
+  right: 40%;
 }
 #contact {
   position: absolute;
   bottom: 0;
-  right: 30%;
+  right: 40%;
+}
+div.elem-group {
+  margin: 0px 0;
+}
+
+label {
+  display: block;
+  font-family: 'Aleo';
+  padding-bottom: 4px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Aleo';
+  width: 500px;
+  padding: 8px;
+}
+
+textarea {
+  height: 250px;
+}
+
+button {
+  height: 40px;
+  background: green;
+  color: white;
+  border: 2px solid darkgreen;
+  font-size: 1.25em;
+  font-family: 'Aleo';
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid black;
 }
