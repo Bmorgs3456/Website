@@ -32,10 +32,6 @@ footer p{
 }
 .home .text-container{
   text-align: center;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  height: 90vh;
 }
 .about{
   background:url("images/background-orig.png");
@@ -177,4 +173,12 @@ button {
 
 button:hover {
   border: 2px solid black;
+}
+#st1 {
+  margin: 40px 40px 40px 40px;
+  width: 400px;
+}
+#summary {
+  text-align: center;
+  padding: 150px 150px 150px 150px;
 }
