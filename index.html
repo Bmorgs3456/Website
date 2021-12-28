@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="sr">
 <head>
 <title>Software Testing</title>
 <link rel="stylesheet" href="C:\Users\b_mor\github\Website\style.css">
@@ -8,6 +8,10 @@
 <meta name="keywords" content="Software Testing, Home, Helping">
 <meta name="author" content="Brandon Morgan">
 <script type="text/javascript" src="script.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+        ScrollReveal({ reset: true });
+    </script>
 <h4>The time is currently: <span id="time"> </span></h4>
 </head>
 <body>
@@ -22,19 +26,25 @@
         <li><a href="./contact.html">Contact<a/></li>
     </ul>
   </div>
-  <div class="text-container">
+  <div class="text-container load-hidden">
     <div>
-      <h1>Software Testing</h1>
-      <h2><i>Helping others</i></h2>
+      <h1 class="main-heading load-hidden">Software Testing</h1>
+      <h2 class="sub-heading load-hidden"><i>Helping others</i></h2>
     </div>
   </div>
   <div>
     <article id="summary">I have created this website as a way to present my skills and abilities.<br> It is still a work in progress and I will be adding things to it constantly.<br>
       This is the home page. Other pages of the website can be accessed by using the navigation bar at the top of the page.
   <article>
+    <img id="qa1" src="images\quality-assurance.png" alt="Quality Assurance Methodologies">
   <footer>
     <p id="index">Created by Brandon Morgan | © Copyright 2021</p>
   </footer>
 </div>
+<script>
+      ScrollReveal().reveal('.text-container')
+      ScrollReveal().reveal('.main-heading', { delay: 500 })
+      ScrollReveal().reveal('.sub-heading', { delay: 2000 })
+</script>
 </body>
 </html>
