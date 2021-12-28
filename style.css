@@ -182,3 +182,9 @@ button:hover {
   text-align: center;
   padding: 150px 150px 150px 150px;
 }
+#qa1 {
+  margin-top: 30px;
+}
+html.sr load-hidden {
+  visiblity: hidden;
+}
