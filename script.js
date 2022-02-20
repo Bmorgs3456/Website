@@ -5,5 +5,3 @@ function refreshTime() {
   timeDisplay.textContent = formattedString;
 }
 setInterval(refreshTime, 1000);
-
-f
